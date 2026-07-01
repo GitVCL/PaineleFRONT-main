@@ -1,0 +1,93 @@
+<svg width="1024" height="576" viewBox="0 0 1024 576" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="576" fill="url(#gradient-bg)"/>
+  
+  <!-- Mobile Device -->
+  <rect x="40" y="40" width="240" height="420" rx="20" fill="#1E293B" stroke="#475569" stroke-width="2"/>
+  <rect x="60" y="80" width="200" height="340" rx="12" fill="#0F172A"/>
+  
+  <!-- Mobile Cards -->
+  <rect x="80" y="100" width="160" height="80" rx="8" fill="#8B5CF6"/>
+  <text x="160" y="130" fill="white" text-anchor="middle" font-size="12" font-family="Arial">Faturamento do Dia</text>
+  <text x="160" y="150" fill="white" text-anchor="middle" font-size="16" font-weight="bold" font-family="Arial">R$ 130,00</text>
+  
+  <rect x="80" y="200" width="160" height="80" rx="8" fill="#8B5CF6"/>
+  <text x="160" y="230" fill="white" text-anchor="middle" font-size="12" font-family="Arial">Vendas Hoje</text>
+  <text x="160" y="250" fill="white" text-anchor="middle" font-size="16" font-weight="bold" font-family="Arial">3 vendas</text>
+  
+  <rect x="80" y="300" width="160" height="80" rx="8" fill="#8B5CF6"/>
+  <text x="160" y="330" fill="white" text-anchor="middle" font-size="12" font-family="Arial">Produtos em Estoque</text>
+  <text x="160" y="350" fill="white" text-anchor="middle" font-size="16" font-weight="bold" font-family="Arial">2 itens</text>
+  
+  <!-- Desktop/Tablet View -->
+  <rect x="320" y="40" width="480" height="320" rx="16" fill="#1E293B" stroke="#475569" stroke-width="2"/>
+  <rect x="340" y="80" width="440" height="260" rx="12" fill="#0F172A"/>
+  
+  <!-- Desktop Header -->
+  <rect x="340" y="80" width="440" height="60" rx="8" fill="#4C1D95"/>
+  <text x="560" y="115" fill="white" text-anchor="middle" font-size="18" font-weight="bold" font-family="Arial">Gerenciar Assinatura</text>
+  
+  <!-- Desktop Plans -->
+  <rect x="360" y="160" width="180" height="160" rx="8" fill="#374151"/>
+  <text x="450" y="185" fill="white" text-anchor="middle" font-size="14" font-family="Arial">Plano Teste</text>
+  <text x="450" y="205" fill="#8B5CF6" text-anchor="middle" font-size="18" font-weight="bold" font-family="Arial">Grátis</text>
+  <text x="450" y="225" fill="#9CA3AF" text-anchor="middle" font-size="10" font-family="Arial">Perfeito para testar todas as funcionalidades</text>
+  <text x="450" y="245" fill="#9CA3AF" text-anchor="middle" font-size="10" font-family="Arial">Até 30 produtos</text>
+  <text x="450" y="265" fill="#9CA3AF" text-anchor="middle" font-size="10" font-family="Arial">Relatórios básicos</text>
+  <text x="450" y="285" fill="#9CA3AF" text-anchor="middle" font-size="10" font-family="Arial">Suporte por email</text>
+  
+  <rect x="560" y="160" width="180" height="160" rx="8" fill="#8B5CF6"/>
+  <text x="650" y="185" fill="white" text-anchor="middle" font-size="14" font-family="Arial">Plano Premium</text>
+  <text x="650" y="205" fill="white" text-anchor="middle" font-size="18" font-weight="bold" font-family="Arial">R$ 89,99</text>
+  <text x="650" y="225" fill="#E5E7EB" text-anchor="middle" font-size="10" font-family="Arial">Inclui recursos para empreendedores profissionais</text>
+  <text x="650" y="245" fill="#E5E7EB" text-anchor="middle" font-size="10" font-family="Arial">Produtos ilimitados</text>
+  <text x="650" y="265" fill="#E5E7EB" text-anchor="middle" font-size="10" font-family="Arial">Relatórios avançados</text>
+  <text x="650" y="285" fill="#E5E7EB" text-anchor="middle" font-size="10" font-family="Arial">Suporte prioritário</text>
+  <text x="650" y="305" fill="#E5E7EB" text-anchor="middle" font-size="10" font-family="Arial">Multi-dispositivos</text>
+  
+  <!-- Upgrade Button -->
+  <rect x="580" y="330" width="140" height="25" rx="4" fill="#F59E0B"/>
+  <text x="650" y="345" fill="black" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial">Upgrade para Premium</text>
+  
+  <!-- Right Sidebar -->
+  <rect x="832" y="40" width="152" height="320" rx="16" fill="#1E293B" stroke="#475569" stroke-width="2"/>
+  <rect x="848" y="60" width="120" height="280" rx="8" fill="#0F172A"/>
+  
+  <!-- Sidebar Content -->
+  <text x="908" y="85" fill="white" text-anchor="middle" font-size="14" font-weight="bold" font-family="Arial">Painelé</text>
+  
+  <rect x="860" y="100" width="96" height="60" rx="6" fill="#8B5CF6"/>
+  <text x="908" y="120" fill="white" text-anchor="middle" font-size="10" font-family="Arial">Faturamento do Dia</text>
+  <text x="908" y="135" fill="white" text-anchor="middle" font-size="14" font-weight="bold" font-family="Arial">R$ 130,00</text>
+  <text x="908" y="150" fill="white" text-anchor="middle" font-size="10" font-family="Arial">3 vendas</text>
+  
+  <rect x="860" y="180" width="96" height="60" rx="6" fill="#8B5CF6"/>
+  <text x="908" y="200" fill="white" text-anchor="middle" font-size="10" font-family="Arial">Produtos em Estoque</text>
+  <text x="908" y="215" fill="white" text-anchor="middle" font-size="14" font-weight="bold" font-family="Arial">2 itens</text>
+  
+  <!-- Notifications -->
+  <text x="908" y="270" fill="white" text-anchor="middle" font-size="12" font-weight="bold" font-family="Arial">Notificações</text>
+  <text x="908" y="290" fill="#9CA3AF" text-anchor="middle" font-size="8" font-family="Arial">2 produtos venderam mais de 50% do estoque inicial</text>
+  <text x="908" y="310" fill="#9CA3AF" text-anchor="middle" font-size="8" font-family="Arial">3 produtos venderam mais de 50% do estoque inicial</text>
+  
+  <!-- Bottom section -->
+  <rect x="860" y="320" width="96" height="15" rx="4" fill="#4C1D95"/>
+  <text x="908" y="330" fill="white" text-anchor="middle" font-size="8" font-family="Arial">Plano Atual</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="500" r="3" fill="#8B5CF6" opacity="0.6"/>
+  <circle cx="150" cy="520" r="2" fill="#F59E0B" opacity="0.6"/>
+  <circle cx="200" cy="510" r="2.5" fill="#10B981" opacity="0.6"/>
+  
+  <circle cx="900" cy="400" r="3" fill="#8B5CF6" opacity="0.6"/>
+  <circle cx="950" cy="420" r="2" fill="#F59E0B" opacity="0.6"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1E293B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0F172A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

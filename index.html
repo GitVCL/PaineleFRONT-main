@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/painele.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painele</title>
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#7c3aed" />
+    <meta name="description" content="Sistema completo para gerenciar suas vendas de forma inteligente e responsiva" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/painele.svg" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Painele" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // Dev-only: Unregister any existing Service Workers to prevent interference with Vite HMR/client
+      window.addEventListener('load', () => {
+        const isDevLocal = location.hostname === 'localhost';
+        if (isDevLocal && 'serviceWorker' in navigator) {
+          try {
+            navigator.serviceWorker.getRegistrations()
+              .then(regs => {
+                try {
+                  for (const reg of regs) {
+                    reg.unregister();
+                  }
+                } catch (e) {}
+              })
+              .catch(() => {});
+          } catch (e) {}
+          if (window.caches && caches.keys) {
+            try {
+              caches.keys().then(keys => {
+                try {
+                  for (const key of keys) {
+                    if (/^(workbox|vite|painele)/i.test(key)) {
+                      caches.delete(key);
+                    }
+                  }
+                } catch (e) {}
+              }).catch(() => {});
+            } catch (e) {}
+          }
+        }
+      });
+    </script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
