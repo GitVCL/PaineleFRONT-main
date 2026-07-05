@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import LoadingSpinner from "../ui/LoadingSpinner";
-
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3001";
+import { API_BASE_URL } from "../../utils/apiBaseUrl";
 
 export const CadastroUsuario = () => {
   const [nome, setNome] = useState("");
@@ -28,7 +27,7 @@ export const CadastroUsuario = () => {
     }
 
     try {
-      const resposta = await fetch(`${API_URL}/api/auth/register`, {
+      const resposta = await fetch(`${API_BASE_URL}/api/auth/register`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ nome, email, senha }),

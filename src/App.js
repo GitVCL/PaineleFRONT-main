@@ -14,7 +14,6 @@ import { Error } from "./pages/Error";
 import AddBarcode from "./pages/AddBarcode";
 import { EsqueceuSenha } from "./components/Login/EsqueceuSenha";
 import { ResetSenha } from "./components/Login/Resetsenha";
-import AuthDebug from "./components/Debug/AuthDebug";
 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -53,7 +52,6 @@ function App() {
 
               <Route path="esqueceusenha" element={<EsqueceuSenha />} />
             <Route path="resetsenha" element={<ResetSenha />} />
-            <Route path="debug" element={<AuthDebug />} />
               
               {/* Rotas protegidas com controle de planos */}
             <Route path="home" element={

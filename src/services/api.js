@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { API_BASE_URL } from '../utils/apiBaseUrl';
 
 // Função auxiliar para obter cookies
 function getCookie(name) {
@@ -7,9 +8,6 @@ function getCookie(name) {
   if (parts.length === 2) return parts.pop().split(';').shift();
   return null;
 }
-
-// Configuração base da API
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 
 // Instância do axios configurada
 const api = axios.create({
