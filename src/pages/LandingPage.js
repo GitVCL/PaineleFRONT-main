@@ -92,7 +92,7 @@ export const LandingPage = () => {
           
           <div className="mt-16 relative mx-auto max-w-5xl">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-purple-900/20 border border-white/10 bg-slate-900">
-               <img src="/painele imagem do sistema.jpeg" alt="Dashboard Preview" className="w-full opacity-90 hover:opacity-100 transition-opacity" />
+               <img src="/imagemdosistema.jpeg" alt="Dashboard Preview" className="w-full opacity-90 hover:opacity-100 transition-opacity" />
             </div>
           </div>
         </div>
