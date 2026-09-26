@@ -54,7 +54,6 @@ export const LandingPage = () => {
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-purple-900/20 rounded-full blur-[100px] -translate-y-1/2"></div>
           <div className="absolute top-1/4 right-0 w-[500px] h-[500px] bg-indigo-900/20 rounded-full blur-[80px] translate-x-1/2"></div>
           <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-fuchsia-900/20 rounded-full blur-[80px] -translate-x-1/2 translate-y-1/4"></div>
-          <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10 mix-blend-overlay"></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -225,7 +224,6 @@ export const LandingPage = () => {
 
       {/* CTA Section */}
       <div className="bg-purple-900 py-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-10 mix-blend-overlay"></div>
         <div className="max-w-4xl mx-auto px-4 text-center text-white relative z-10">
           <h2 className="text-4xl font-bold mb-6">Pronto para organizar seu negócio?</h2>
           <p className="text-xl text-purple-100 mb-8">
